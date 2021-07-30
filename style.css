@@ -176,3 +176,84 @@ header{
     width: 100px;
     padding: 10px;
 }
+
+
+                    /* Using Media Queray */
+@media (max-width:688px) {
+    /* For All */
+    .container{
+        margin: auto;
+    }
+    .button{
+        padding: 2px 2px;
+    }
+    /* Menu Bar */
+    .nav-menu{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    /* Hero Section */
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    .intro-text h1{
+        padding-bottom: 8px;
+        font-size: 35px;
+    }
+    .intro-text {
+        width: 35%;
+    }
+    .intro-image{
+        width: 65%;
+    }
+
+    /* Player Section */
+    .player-section-title h1{
+        font-family: 'WindSong', cursive;
+        color: rgb(38, 39, 39);
+        font-size: 20px;
+        line-height: 25px;
+        padding: 20px;
+        background-color: rgb(219, 206, 206);
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 30px;
+    }
+    /* Club Section */
+    .club-section h1{
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .clubs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        margin-top: 30px;
+    }
+
+            /* Match Section */
+   .match-section{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 100px;
+            }
+    .footer-section{
+       width: 250px;
+    }
+    .logo{
+        width: 300px;
+    }
+    .icon{
+        width: 80px;
+        padding: 10px;
+    }
+
+}
